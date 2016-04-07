@@ -5,8 +5,8 @@
  */
  
  Instrumentation与Roboletric都是针对Android进行单元测试的框架，前者在执行case时是以Android JUnit的方式运行，
- 因此必须在真实的Android环境中运行（模拟器或者真机），而后者则是以Java Junit的方式运行，这里就脱离了对 Android 环境的依赖，
- 而可以直接将case在JVM中运行，因此很适合将Roboletric用于Android的测试驱动开发（TDD）。
+ 因此必须在真实的Android环境中运行（模拟器或者真机），而后者则是以Java Junit的方式运行，这里就脱离了对 Android 
+ 环境的依赖，而可以直接将case在JVM中运行，因此很适合将Roboletric用于Android的测试驱动开发（TDD）。
  
  /**
  * Created by anyang on 2016/4/6.
